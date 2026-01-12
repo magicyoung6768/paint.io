@@ -1,1 +1,0 @@
-import{f as e,g as o}from"./http-B543QwWT.js";e(e=>{const o=localStorage.getItem("userToken");return o&&(e.headers.Authorization=`Bearer ${o}`),e}),o(e=>e,e=>{if(e.response&&401===e.response.status){localStorage.removeItem("userToken");const e=window.location.href;window.location.href=`/login?redirect=${encodeURIComponent(e)}`}return Promise.reject(e)});
