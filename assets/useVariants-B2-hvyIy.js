@@ -1,0 +1,1 @@
+import{_ as e,f as t}from"./emotion-react-jsx-runtime.browser.esm-ISOk4yf3.js";import{gt as n,ht as r}from"./config-provider-Wwjxc3VJ.js";import{l as i}from"./colors-BsR6OkXH.js";var a=e(t()),o=(e,t,o)=>{let{variant:s,[e]:c}=a.useContext(r),l=a.useContext(i),u=c?.variant,d;d=t===void 0?o===!1?`borderless`:l??u??s??`outlined`:t;let f=n.includes(d);return[d,f]};export{o as t};
